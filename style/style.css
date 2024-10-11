@@ -21,13 +21,29 @@
     --quote-font-style:italic;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "Roboto", sans-serif;
 }
 
-*:before,
-:after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.header{
+    margin: 0 auto;
+    background-color: var(--dark-bg-color);
+}
+
+.header .header-logo{
+    font-size: var(--header-logo-font-size);
+    color: var(--header-logo-text-color);
+    font-weight: var(--hero-font-weight);
+}
+
+.col{
+    width: 80%;
+    margin: 0 auto;
 }
