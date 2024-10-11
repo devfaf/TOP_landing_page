@@ -43,6 +43,33 @@ body{
     font-weight: var(--hero-font-weight);
 }
 
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.ul-items{
+    display: flex;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.list-item a{
+    text-decoration: none;
+    font-size: var(--hero-secondary-text-size);
+    color: var(--hero-secondary-color);
+}
+
+.list-item +
+.list-item {
+    padding-left: 1rem;
+}
+
+
 .col{
     width: 80%;
     margin: 0 auto;
